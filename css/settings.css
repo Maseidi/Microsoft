@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: latest;
+    src: url(../fonts/latest.woff2);
+}
+
+@font-face {
+    font-family: seo;
+    src: url(../fonts/SegoeUI-Semibold.eot);
+    src: url(../fonts/SegoeUI-Semibold.ttf);
+    src: url(../fonts/SegoeUI-Semibold.woff);
+    src: url(../fonts/SegoeUI-Semibold.woff2);
+}

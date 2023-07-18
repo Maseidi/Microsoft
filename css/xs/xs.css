@@ -1,0 +1,393 @@
+header {
+  height: 58px;
+  background-color: white;
+  border-bottom: 1px solid #e6e6e6;
+  user-select: none; }
+  header div.xsHeader {
+    width: 100%;
+    height: 100%;
+    user-select: none; }
+    header div.xsHeader > div.row {
+      justify-content: space-between;
+      width: 100%;
+      height: 100%; }
+      header div.xsHeader > div.row > div {
+        width: auto;
+        height: 100%;
+        line-height: 58px; }
+        header div.xsHeader > div.row > div > a {
+          text-decoration: none; }
+          header div.xsHeader > div.row > div > a > img {
+            width: 25px;
+            height: 25px;
+            margin-bottom: 8px; }
+          header div.xsHeader > div.row > div > a > span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #666666;
+            user-select: none; }
+        header div.xsHeader > div.row > div > i {
+          color: #262626;
+          font-size: 20px;
+          cursor: pointer; }
+        header div.xsHeader > div.row > div > i.searchIcon {
+          transform: scaleX(-1);
+          margin-left: 20px;
+          font-size: 17px; }
+        header div.xsHeader > div.row > div i.fa-cart-shopping {
+          margin-right: 20px;
+          font-size: 14px; }
+  header > div.smallMenu {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid black; }
+    header > div.smallMenu > div {
+      height: 54px;
+      line-height: 54px;
+      border: 1px solid #e6e6e6;
+      padding-left: 17px; }
+      header > div.smallMenu > div > span {
+        font-size: 15px; }
+        header > div.smallMenu > div > span > i {
+          float: right;
+          margin-right: 17px;
+          margin-top: 20px; }
+    header > div.smallMenu > div.sub1, header > div.smallMenu div.sub2, header > div.smallMenu div.sub3, header > div.smallMenu div.sub4, header > div.smallMenu div.sub5, header > div.smallMenu div.sub6 {
+      height: auto;
+      padding-left: 45px; }
+      header > div.smallMenu > div.sub1 > a, header > div.smallMenu div.sub2 > a, header > div.smallMenu div.sub3 > a, header > div.smallMenu div.sub4 > a, header > div.smallMenu div.sub5 > a, header > div.smallMenu div.sub6 > a {
+        display: block;
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px solid #e6e6e6; }
+  header div.smallSearch {
+    width: 100%;
+    height: 58px;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid #e6e6e6;
+    top: 0px;
+    left: 0px; }
+    header div.smallSearch > input {
+      width: 86%;
+      height: 60%;
+      padding-left: 40px;
+      margin-left: 15px;
+      border: 1px solid black;
+      font-size: 15px; }
+      header div.smallSearch > input:focus {
+        border: none;
+        outline: 2px solid #0067b8; }
+    header div.smallSearch > i:nth-of-type(1) {
+      cursor: pointer;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-top: 16px; }
+    header div.smallSearch > i:nth-of-type(2) {
+      transform: scaleX(-1);
+      position: absolute;
+      top: 21px;
+      left: 60px; }
+
+div.largeMenu {
+  display: none !important; }
+
+div.largeSearch {
+  display: none !important; }
+
+div.xxlHeader {
+  display: none; }
+
+div.lgHeader {
+  display: none; }
+
+div.mdHeader {
+  display: none; }
+
+div.xlHeader {
+  display: none; }
+
+div.smHeader {
+  display: none; }
+
+main > div.slider {
+  margin-top: 20px;
+  height: 530px;
+  width: 100%;
+  margin-bottom: 95px; }
+
+.swiper {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.picture-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/18.jpg);
+  background-size: 100% 56.5%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 315px;
+  padding-left: 25px;
+  padding-right: 25px; }
+  .picture-1 > div.caption-1 {
+    text-align: left;
+    width: 100%;
+    height: auto; }
+    .picture-1 > div.caption-1 > h2 {
+      font-size: 24px; }
+    .picture-1 > div.caption-1 > p {
+      margin-top: 5px;
+      font-size: 17px; }
+    .picture-1 > div.caption-1 > button {
+      width: 167px;
+      height: 40px;
+      background-color: #0067b8;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      font-size: 17px;
+      margin-top: 5px; }
+      .picture-1 > div.caption-1 > button:hover {
+        background-color: #01589a; }
+    .picture-1 > div.caption-1 > a {
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #0067b8; }
+      .picture-1 > div.caption-1 > a:hover {
+        text-decoration: underline; }
+        .picture-1 > div.caption-1 > a:hover > i {
+          margin-left: 5px; }
+      .picture-1 > div.caption-1 > a > i {
+        transition: 300ms; }
+
+.picture-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/19.jpg);
+  background-size: 100% 56.5%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 320px;
+  padding-left: 25px;
+  padding-right: 25px; }
+  .picture-2 > div.caption-2 {
+    text-align: left;
+    width: 100%;
+    height: auto; }
+    .picture-2 > div.caption-2 > p:nth-of-type(1) {
+      width: auto;
+      display: inline;
+      background-color: #9bf00b;
+      padding: 3px 10px;
+      font-size: 17px;
+      font-family: seo; }
+    .picture-2 > div.caption-2 > h2 {
+      margin-top: 5px;
+      font-size: 25px;
+      color: black; }
+    .picture-2 > div.caption-2 > p:nth-of-type(2) {
+      margin-top: 5px;
+      font-size: 16px;
+      color: black; }
+    .picture-2 > div.caption-2 > button {
+      width: 117px;
+      height: 40px;
+      background-color: #0067b8;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      font-size: 17px; }
+      .picture-2 > div.caption-2 > button:hover {
+        background-color: #01589a; }
+    .picture-2 > div.caption-2 > a {
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #0067b8; }
+      .picture-2 > div.caption-2 > a:hover {
+        text-decoration: underline; }
+        .picture-2 > div.caption-2 > a:hover > i {
+          margin-left: 5px; }
+      .picture-2 > div.caption-2 > a > i {
+        transition: 300ms; }
+
+.icons {
+  width: 95%; }
+  .icons > div.row div {
+    margin-bottom: 15px;
+    text-align: center; }
+    .icons > div.row div > img {
+      margin: 0px auto;
+      display: block; }
+    .icons > div.row div > a {
+      display: block;
+      color: #0067b8;
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 13px; }
+
+.fourPics > div.row {
+  width: 100%; }
+  .fourPics > div.row > div {
+    margin-top: 50px;
+    width: 100%;
+    cursor: pointer; }
+    .fourPics > div.row > div > img {
+      width: 100%; }
+    .fourPics > div.row > div > h2 {
+      margin-top: 10px; }
+    .fourPics > div.row > div > a {
+      color: #0067b8;
+      text-decoration: none;
+      font-weight: bold; }
+      .fourPics > div.row > div > a:hover {
+        text-decoration: underline; }
+        .fourPics > div.row > div > a:hover > i {
+          margin-left: 5px; }
+      .fourPics > div.row > div > a > i {
+        transition: 300ms; }
+
+.xbox {
+  width: 98%;
+  height: 500px;
+  margin-top: 50px;
+  background-image: url(../../images/20.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 56%;
+  cursor: pointer; }
+  .xbox > div.caption-3 {
+    text-align: left;
+    width: 100%;
+    margin: 0px auto;
+    height: 250px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 5px; }
+    .xbox > div.caption-3 > h2 {
+      margin-top: 10px;
+      font-size: 25px; }
+    .xbox > div.caption-3 > p {
+      margin-top: 20px;
+      font-size: 16px; }
+    .xbox > div.caption-3 > button {
+      width: 135px;
+      height: 40px;
+      background-color: #0067b8;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      font-size: 17px;
+      margin-top: 10px; }
+      .xbox > div.caption-3 > button:hover {
+        background-color: #01589a; }
+
+h1.topic {
+  margin-left: 2%;
+  margin-top: 20px;
+  font-size: 25px; }
+
+div.special-1 {
+  margin-top: 0px !important; }
+
+div.follow {
+  margin-left: 5%;
+  font-size: 17px;
+  margin-top: 105px; }
+  div.follow > i {
+    font-size: 25px;
+    cursor: pointer; }
+
+div.goTop {
+  background-color: #d9d9d9;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid #d9d9d9; }
+  div.goTop:hover {
+    background-color: white; }
+
+footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: auto;
+  margin-top: 110px; }
+  footer > div.footerMenu {
+    width: 90%;
+    height: auto;
+    padding-left: 14px; }
+    footer > div.footerMenu > div {
+      padding-top: 35px; }
+      footer > div.footerMenu > div > p {
+        display: block;
+        color: #6f716f;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 0px !important; }
+      footer > div.footerMenu > div > a {
+        color: #616161;
+        font-size: 11px;
+        text-decoration: none;
+        display: block;
+        margin-top: 14px; }
+        footer > div.footerMenu > div > a:hover {
+          text-decoration: underline; }
+  footer > div.copyRight {
+    padding-top: 20px;
+    height: 140px; }
+    footer > div.copyRight > .left {
+      width: 35%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      column-gap: 20px;
+      margin-left: 5%; }
+      footer > div.copyRight > .left > a {
+        color: #616161;
+        font-size: 11px;
+        text-decoration: none; }
+        footer > div.copyRight > .left > a:hover {
+          text-decoration: underline; }
+        footer > div.copyRight > .left > a > i {
+          font-size: 20px;
+          margin-right: 10px; }
+        footer > div.copyRight > .left > a > i.toggle {
+          color: #0066ff; }
+    footer > div.copyRight > .right {
+      width: 96%;
+      margin-top: 20px;
+      margin-right: 2%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      column-gap: 20px;
+      margin-bottom: 20px; }
+      footer > div.copyRight > .right > a {
+        color: #616161;
+        font-size: 11px;
+        text-decoration: none; }
+        footer > div.copyRight > .right > a:hover {
+          text-decoration: underline; }
+      footer > div.copyRight > .right > span {
+        font-size: 11px; }
